@@ -41,15 +41,15 @@ export const getUserProfile = () => {
 }
 
 /**
- * 上传头像
+ * 修改头像
  * @param {Obejct} formData - 上传对象（包含字段photo）
  */
-export const saveUserPhoto = (formData) => {
+export const saveUserPhoto = (formData) => { // 发送图片信息，基于xhr发送一个formdata就是上传
   return request('/app/v1_0/user/photo', 'patch', formData)
 }
 
 /**
- * 保存信息
+ * 修改用户信息
  * @param {String} name
  * @param {Integer} gender
  * @param {String} birthday
@@ -57,3 +57,5 @@ export const saveUserPhoto = (formData) => {
 export const saveUserInfo = (name, gender = 0, birthday) => {
   return request('/app/v1_0/user/profile', 'patch', { name, gender, birthday })
 }
+
+// patch和put区别是什么，put是完整修改，patch是局部修改
