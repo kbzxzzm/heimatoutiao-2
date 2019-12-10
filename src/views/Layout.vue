@@ -1,7 +1,7 @@
 <template>
   <div class='container'>
     <!-- 导航栏 -->
-    <van-nav-bar  v-if="showNavbar" fixed title="黑马头条" right-text="搜索" @click-right="$router.push('/search')"/>
+    <van-nav-bar  v-if="showNavbar" fixed title="欢迎来到浮雨头条" right-text="搜索" @click-right="$router.push('/search')"/>
     <!-- 内容容器 -->
     <div class="my-wrapper" :class="{noTop:!showNavbar}">
       <!-- 二级路由对应组件显示的容器 -->

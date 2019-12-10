@@ -79,7 +79,7 @@ export default {
     async getUserInfo () {
       const data = await getUserInfo()
       this.user = data
-      this.setPhoto(data.photo)//  设置头像信息,用来传入子组件信息
+      this.setPhoto(data.photo)// 更新vuex中的数据 设置头像信息,用来传入子组件信息
     }
   }
 }

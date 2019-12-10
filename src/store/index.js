@@ -9,7 +9,7 @@ export default new Vuex.Store({
   state: {
     // 用户信息（token,refresh_token）
     user: auth.getUser(),
-    photo: ''// 头像
+    photo: null// 小智同学头像
   },
   mutations: {
     setPhoto (state, data) { // 小智同学组件中使用
