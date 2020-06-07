@@ -7737,7 +7737,7 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-socket.io-client@^2.3.0:
+socket.io-client@^2.1.1, socket.io-client@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npm.taobao.org/socket.io-client/download/socket.io-client-2.3.0.tgz#14d5ba2e00b9bcd145ae443ab96b3f86cbcc1bb4"
   integrity sha1-FNW6LgC5vNFFrkQ6uWs/hsvMG7Q=
@@ -8727,6 +8727,13 @@ vue-router@^3.1.3:
   resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.1.3.tgz?cache=0&sync_timestamp=1572571382028&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
   integrity sha1-5rFPq8DA7p/aDiy72nSzUOKOQSs=
 
+vue-socket.io@^3.0.7:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/vue-socket.io/-/vue-socket.io-3.0.9.tgz#c725fe99d7a3aa173478c0a2607816c993feec0d"
+  integrity sha512-imgrZL+UuyMhEyOOD6Cl11eDtEaVn606e3mCD/2s/oUAB511Ckqon4U7y97t6dwQgLCKW+tfA8aFhF5d3Eogdw==
+  dependencies:
+    socket.io-client "^2.1.1"
+
 vue-style-loader@^4.1.0:
   version "4.1.2"
   resolved "https://registry.npm.taobao.org/vue-style-loader/download/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"
@@ -8920,9 +8927,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.npm.taobao.org/websocket-extensions/download/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha1-XS/yKXcAPsaHpLhwc9+7rBRszyk=
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"
